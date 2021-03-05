@@ -46,6 +46,7 @@ public class SnakeGame extends Application {
         display = new SquareGrid(20, 20, 20);
         display.setDefaultColor(Color.BLACK);
         display.setAlwaysDrawGrid(false);
+        display.setGridColor(null);
 
         // set up the game loop
         gameTimer = new AnimationTimer() {
